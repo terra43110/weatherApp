@@ -1,0 +1,212 @@
+/*
+ * Extra large devices (large desktops)
+ * No media query since the extra-large breakpoint has no upper bound on its width
+ */
+  html {
+    box-sizing: border-box;
+    height: 100vh;
+    border: 1rem ridge rgba(223, 223, 223, 0.5);
+    background-size: 100% 100%;
+  }
+
+  body {
+    position: relative;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+  }
+
+  header {
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    margin-bottom: 10rem;
+  }
+  
+  header > h1 {
+    /*
+    visibility: hidden;
+    */
+    margin-bottom: 1rem;
+  }
+
+  #h1-br {
+    display: none;
+  }
+  
+  #h1-space {
+    display: inline;
+  }
+  
+  #show-temperature {
+    /* https://www.jakpsatweb.cz/css/css-vertical-center-solution.html */
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  #btnToggleUnitContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3rem;
+  }
+  #btnToggleUnit {
+    border: 3px outset white;
+    border-radius: 0.75rem;
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(to bottom right, rgba(122, 131, 155, 1.0), rgba(46, 65, 114, 1.0));
+    color: rgba(239, 239, 239, 1.0);
+    font-size: 0.9rem;
+  }
+
+  #btnToggleUnit:active {
+    border: 3px solid rgb(223, 223, 223);
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 1rem;
+    margin: 0 auto !important;
+    width: 100%;
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  #freecodecamp-image {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+}
+
+/* Extra small devices (portrait phones, less than 544px) */
+@media (max-width: 543px) {
+  /*
+  html {
+    box-sizing: border-box;
+    height: 100vh;
+    border: 1rem ridge rgba(223, 223, 223, 0.5);
+    background-size: 100% 100%;
+  }
+
+  body {
+    position: relative;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+  }
+
+  header {
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    margin-bottom: 10rem;
+  }
+  */
+
+  /*
+  header > h1 {
+  */
+    /*
+    visibility: hidden;
+    */
+    /*
+    margin-bottom: 1rem;
+  }
+  */
+  
+  #h1-br {
+    display: inline;
+  }
+
+  #h1-space {
+    display: none;
+  }
+
+  /*
+  #show-temperature {
+    /* https://www.jakpsatweb.cz/css/css-vertical-center-solution.html */
+  /*
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  */
+
+  #show-temperature-text {
+  }
+
+  /*
+  #btnToggleUnitContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5rem;
+  }
+  */
+
+  /*
+  #btnToggleUnit {
+    border: 3px outset white;
+    border-radius: 0.75rem;
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(to bottom right, rgba(122, 131, 155, 1.0), rgba(46, 65, 114, 1.0));
+    color: rgba(239, 239, 239, 1.0);
+    font-size: 0.9rem;
+  }
+  */
+
+  /*
+  #btnToggleUnit:active {
+    border: 3px solid rgb(223, 223, 223);
+  }
+  */
+
+  /*
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 1rem;
+    margin: 0 auto !important;
+    width: 100%;
+    text-align: center;
+    opacity: 0.5;
+  }
+  */
+
+  /*
+  #freecodecamp-image {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  */
+}
+
